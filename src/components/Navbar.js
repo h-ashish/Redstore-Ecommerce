@@ -6,7 +6,7 @@ function Navbar() {
   const state = useSelector((state) => state.handleCart);
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div className="container">
           <NavLink className="navbar-brand fw-bold fs-4" to="/">
             REDSTORE
